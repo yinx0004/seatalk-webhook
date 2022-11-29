@@ -1,0 +1,23 @@
+# Test your FastAPI endpoints
+
+### Health Check
+GET http://127.0.0.1:8000/
+Accept: application/json
+
+### Voice Call
+POST http://127.0.0.1:8000/vonage
+Content-Type: application/json
+
+{
+  "phone": "65xxxxxxxx",
+  "msg": "hello"
+}
+
+### Send to seatalk group, J2s6d744RBKp44Oraak7qg is the group system account token, you can find it in system account settings. For example "https://openapi.seatalk.io/webhook/group/J2s6d744RBKp44Oraak7qg"
+POST http://127.0.0.1:8000/seatalk/J2s6d744RBKp44Oraak7qg
+Content-Type: application/json
+
+{
+  "content": "hello",
+  "email": "sherry@sea.com"
+}
