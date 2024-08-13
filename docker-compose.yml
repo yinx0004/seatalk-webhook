@@ -8,7 +8,7 @@ services:
     ports:
       - "8013:80"
     environment:
-      - agents={"Yin Xi":{"mobile":"6581824708","email":"yinx@sea.com"}, "Chai Jie Feng":{"mobile":"6597439968","email":"chaijf@sea.com"}, "Yang Yakun":{"mobile":"6585560919", "email":"yangyk@sea.com"}, "Wang Jingjing":{"mobile":"6586292523","email":"wangjj@sea.com"}}
+      - agents={"Yin Xi":{"mobile":"xxxxxx","email":"xxx@sea.com"}, "Chai Jie Feng":{"mobile":"xxxxx","email":"xxxx@sea.com"}, "Yang Yakun":{"mobile":"xxxxxx", "email":"xxxxx@sea.com"}, "Wang Jingjing":{"mobile":"xxxxxx","email":"xxxx@sea.com"}}
       - dba_duty_cal=garena.com_n4a7lrs238jlcil4gbmqnlaffc@group.calendar.google.com
       - vonage_application_id=c2d4b8f3-348f-4715-8849-77f751f715e9
       - vonage_number=12015843532
